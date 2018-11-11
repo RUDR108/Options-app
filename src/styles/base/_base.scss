@@ -1,0 +1,17 @@
+html{
+    font-size:62.5%;/*It decrease the size of rem to 62.5% less*/
+}
+body{
+     background-color:$dark-blue; 
+     font-family:Halvetica,Arial,sans-serif;
+     font-size:1.6rem;
+     
+}
+
+button{
+    cursor:pointer;
+}
+
+button:disabled{
+    cursor:default;
+}
